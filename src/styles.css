@@ -1,0 +1,105 @@
+.bg_ltblue{
+    background-color: #29abe2
+}
+.text-right{
+    text-align: right;
+}
+h1{
+    color:#0023c4;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.username_loggedin{
+    text-align: right;
+    color: #fff;
+}
+.home-tiles a{
+    text-align: center;
+    display: block;
+    color:#29abe2;
+    border: 2px solid #29abe2;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.home-tiles a:hover{
+    opacity: .8;
+}
+.home-tiles img{
+    margin: 10px auto 10px;
+    display: block;
+    max-height: 90px;
+}
+input:focus-visible{
+    outline: none;
+}
+label{
+    display: inline-block;
+    font-size: .9rem;
+    color: #0023c4;
+    margin: .5rem 0;
+}
+hr{
+    background-color:#666; 
+}
+.form-control, input{
+    border-radius: 0;
+    border: 1px solid #29abe2;
+    color:#0023c4;
+}
+.save .btn-outline-primary, .btn-primary{
+    padding: 5px 30px;
+    border-radius: 0;
+    background: #29abe2;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.save .btn-outline-primary:hover, .btn-primary:hover{
+    background: #0023c4;
+    color: #fff;
+}
+.btn-link {
+    font-weight: 400;
+    color: #0023c4;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.btn-link:hover{
+    color: #29abe2;
+}
+.btn-link:focus-visible, .btn-link:focus{
+    outline: none;
+    box-shadow: none;
+}
+thead th, .table>thead th{
+    color: #0023c4;
+    font-weight: normal!important;
+}
+.table>:not(caption)>*>*{
+    border: none;
+}
+text{
+  
+    font-weight: lighter;
+}
+.excel-button{
+    float: right;
+}
+.blue-button, .home-tiles a.blue-button{
+    padding: 5px 30px;
+    background-color: #29abe2;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+}
+.blue-button:hover, .home-tiles a.blue-button:hover{
+    background-color: #0023c4;
+  
+}
+.nav-link{
+    color: #fff;
+    text-align: right;
+}
